@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ms.todo122.MainActivity">
+    <item
+        android:id="@+id/completed"
+        android:orderInCategory="100"
+        android:title="@string/completed"
+        app:showAsAction="always"
+        android:icon="@drawable/ok"
+        android:visible="true"
+        />
+
+
+</menu>
